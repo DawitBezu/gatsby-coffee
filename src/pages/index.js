@@ -11,7 +11,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
     <h1>Hi people</h1>
-    <h3> Lets go for a <FaGulp />?</h3> 
+    <h3> Lets go for a <FaGulp /></h3> 
   </Layout>
 )
 
