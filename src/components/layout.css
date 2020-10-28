@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+
+
 :root {
-  --mainBrown:#774936;
-  --mainYellow:#76520e;
+  --mainBrown:rgb(119, 73, 54);
+  --mainYellow:rgb(133, 94, 21);
   --mainYGrey:#ece8dc;
   --mainWhite:#fff;
   --mainDark:#222;
+  --overlay-color: rgba(0, 0, 0, 0.7);
 }
 
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: 'Operator mono'!important;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Operator mono' !important;
+  font-family: 'Slackey',
+  cursive;
   letter-spacing: 0.25rem !important;
+  line-height: 1.1;
 }
 
 .text-yellow {
@@ -26,4 +33,52 @@ h1,h2,h3,h4,h5,h6{
   color: var(--mainYellow);
   font-size: 2rem;
 
+}
+
+.overlay {
+  background-color: var(--overlay-color);
+}
+
+.items {
+  font-family: 'Fira Sans',
+  sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  background-color: ;
+}
+
+.items:hover {
+  /* background-color: var(--mainYGrey); */
+  /* color: var(--mainWhite)!important; */
+  border-color: var(--mainYellow);
+}
+
+.default-background, .about-background {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(var(--overlay-color));
+  background-position: center;
+  background-size: cover;
+}
+
+.about-background{
+  min-height: 60vh;
+}
+
+.btn-yellow {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+
+.btn-yellow:hover{
+  background: var(--mainYellow);
+  color: #fff;
+  border-color: var(--mainBrown);
+}
+
+.footer{
+  background: var(--mainDark);
 }
