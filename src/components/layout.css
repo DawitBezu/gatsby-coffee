@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gafat:wght@400a&display=swap');
+
 
 
 :root {
-  --mainBrown:rgb(119, 73, 54);
-  --mainYellow:rgb(133, 94, 21);
+  --mainBrown:rgb(207, 158, 51);
+  --mainYellow:rgba(68, 51, 11, 0.774);
   --mainYGrey:#ece8dc;
   --mainWhite:#fff;
   --mainDark:#222;
-  --overlay-color: rgba(0, 0, 0, 0.7);
+  --overlay-color: rgba(65, 50, 30, 0.335);
 }
 
 body {
@@ -17,11 +19,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5{
   font-family: 'Slackey',
   cursive;
   letter-spacing: 0.25rem !important;
   line-height: 1.1;
+}
+
+h6{
+  font-family: 'Gafata',
+  sans-serif;
+  letter-spacing: 0.25rem !important;
+  /* color: var(--mainYellow); */
 }
 
 .text-yellow {
@@ -44,7 +53,6 @@ h1,h2,h3,h4,h5,h6{
   sans-serif;
   font-weight: 500;
   letter-spacing: 0.2rem;
-  background-color: ;
 }
 
 .items:hover {
@@ -81,4 +89,8 @@ h1,h2,h3,h4,h5,h6{
 
 .footer{
   background: var(--mainDark);
+}
+
+.menu {
+  background: var(--mainYGrey);
 }
