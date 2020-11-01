@@ -1,4 +1,5 @@
 import React from "react";
+import FooterImage from '../../images/footer-image.jpg'
 
 export default function Footer() {
   return (

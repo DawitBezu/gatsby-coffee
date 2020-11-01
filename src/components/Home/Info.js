@@ -12,13 +12,14 @@ const Info = () => {
           <div className="row">
           <div className="col-10 col-sm-8 mx-auto">
             <p className="lead text-muted">
-              we offer exotic coffee from several different regions of the world, and we take pride in our ability to roast current-crop, specialty-roasted gourmet coffee. These coffees are grown and produced using environmentally friendly practices, and they're also available in decaf. Each of our coffees is packaged in one-pound or five-pound bags, and we provide same-day roasting and shipping to ensure your gourmet coffee is fresh, flavorful and savory.
+              We offer exotic coffee from several different regions of the world, and we take pride in our ability to roast current-crop, specialty-roasted gourmet coffee. These coffees are grown and produced using environmentally friendly practices, and they're also available in decaf. Each of our coffees is packaged in one-pound or five-pound bags, and we provide same-day roasting and shipping to ensure your gourmet coffee is fresh, flavorful and savory.
             </p>
-            <Link to="/about/">
+            {/* <Link to="/about/">
                 <button className="btn btn-yellow text-center text-uppercase">about page</button>
-            </Link>
+            </Link> */}
+            
             </div>
-            <div className="aside">
+            <div className="aside mx-auto align-content-sm-start">
               <img src={Coffee} alt="coffee"/>
             </div>
         </div>

@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gafat:wght@400a&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Montserrat&family=Roboto&display=swap');
 
 :root {
   --mainBrown: #c8a78f;
@@ -13,14 +9,11 @@
   --overlay-color: rgba(65, 50, 30, 0.335);
 }
 
-nav {
-  background-image: ;
-}
-
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat',
+  sans-serif;
 }
 
 h1,
@@ -28,15 +21,17 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Slackey',
-    cursive;
+  font-family: 'Alegreya Sans',
+  sans-serif;
+  color: var(--mainBrown);
   letter-spacing: 0.5rem !important;
   line-height: 1.1;
 }
 
 h6 {
-  font-family: 'Gafata',
+  font-family: 'Roboto',
     sans-serif;
+    font-size: 0.9rem;
   letter-spacing: 0.25rem !important;
   color: var(--mainYellow);
 }
@@ -57,16 +52,14 @@ h6 {
 }
 
 .items {
-  font-family: 'Fira Sans',
+  font-family: 'Montserrat',
     sans-serif;
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
 
 .items:hover {
-  /* background-color: var(--mainYGrey); */
-  /* color: var(--mainWhite)!important; */
-  border-color: var(--mainYellow);
+  font-weight: 700;
 }
 
 .default-background,
@@ -114,13 +107,14 @@ h6 {
 
 
 .aside img {
-  width: 300px;
+  max-width: 100%;
   height: 300px;
 }
 
 hr {
-  height: 1px;
-  width: 10%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  height: 0.5px;
+  width: 20%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.959), rgba(206, 147, 79, 0.692), rgba(209, 121, 49, 0.685));
 
 }
+
