@@ -8,7 +8,7 @@ const getCategories = items => {
   })
   let tempCategories = new Set(tempItems)
   let categories = Array.from(tempCategories)
-  categories = ["all", ...categories];
+  categories = ['all', ...categories];
   return categories
 }
 
@@ -26,7 +26,7 @@ class Menu extends Component {
     let tempItems = [...this.state.items]
     if (category === "all") {
       this.setState(() => {
-        return {coffeeItmes: tempItems}
+        return {coffeeItems: tempItems}
       })
     }
     else {
@@ -69,7 +69,7 @@ class Menu extends Component {
                     <div className="flex-grow-1 px-3">
                       <div className="d-flex justify-content-between">
                         <h6 className="mb-0"><small>{node.title}</small></h6>
-                        <h6 className="mb-0 text-yellow">$<small>{node.price}</small></h6>
+                        <h6 className="mb-0 text-yellow"><small>${node.price}</small></h6>
                       </div>
                       <p className="text-muted">
                         <small>{node.details}</small>
