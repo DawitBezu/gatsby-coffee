@@ -34,6 +34,7 @@ h6 {
     font-size: 0.9rem;
   letter-spacing: 0.25rem !important;
   color: var(--mainYellow);
+  font-weight: 500;
 }
 
 .text-yellow {
@@ -102,7 +103,11 @@ h6 {
 
 .menu,
 .contact {
-  background: var(--mainYGrey);
+  background: whitesmoke;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 
@@ -117,4 +122,3 @@ hr {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.959), rgba(206, 147, 79, 0.692), rgba(209, 121, 49, 0.685));
 
 }
-
