@@ -62,6 +62,7 @@ https://www.iconfinder.com/webalys */}
               <FaCartArrowDown className="cart-icon snipcart-checkout" />
             </li>
           </ul>
+          .
         </div>
       </nav>
     );

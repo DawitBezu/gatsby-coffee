@@ -38,5 +38,12 @@ module.exports = {
         icon: `src/images/logo.svg`  //This path is relative to the root of the site.
       },
     },
+    {
+        resolve: 'gatsby-plugin-snipcart',
+        options: {
+          apiKey: process.env.SNIPCART_APIKEY,
+          autopop: true
+  },
+    }
   ],
 }
