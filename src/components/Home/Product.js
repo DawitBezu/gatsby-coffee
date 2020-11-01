@@ -10,14 +10,12 @@ export default function Product({product}) {
           <h6>{product.title}</h6>
           <h6>${product.price}</h6>
           <button className="btn btn-yellow mt-3 text-capitalize snipcart-add-item"
-            
-            
-          >add to cart</button>
-          {/* data-item-id={product.id}
+            data-item-id={product.id}
             data-item-name={product.title}
             data-item-price={product.price}
             data-item-image={product.image.fluid.src}
-            data-item-url="/paintings/starry-night" */}
+            data-item-url="https://davos-coffee.netlify.app/"
+          >add to cart</button>
         </div>
       </div>
     </div>
