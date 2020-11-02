@@ -10,7 +10,12 @@ import BackgroundSection from "../components/Globals/BackgroundSection"
 const AboutPage = ({data}) => (
   <Layout>
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="about us" styleClass="about-background" />
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="about"
+      title2="us"
+      slogan={"Good to the Last Drop!"}
+      styleClass="about-background" />
     <Info />
   </Layout>
 )
