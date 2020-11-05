@@ -122,3 +122,14 @@ hr {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.959), rgba(206, 147, 79, 0.692), rgba(209, 121, 49, 0.685));
 
 }
+
+/* animate product card */
+.box {
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.box:hover {
+  animation-duration: 0.25s;
+  border-left: 6px solid var(--mainBrown);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
